@@ -1,0 +1,18 @@
+Input program is valid.
+Symbol name main 
+Line where symbol was declared 1 
+Symbol level 0 
+Symbol scope id 0 
+-------------
+Symbol name x 
+Symbol type Integer 
+Line where symbol was declared 3 
+Symbol level 1 
+Symbol scope id 1 
+-------------
+Symbol name b 
+Symbol type Integer 
+Line where symbol was declared 4 
+Symbol level 1 
+Symbol scope id 1 
+-------------

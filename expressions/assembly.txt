@@ -1,0 +1,14 @@
+##################################
+Assemply:
+
+PROC main
+CPY 0 x
+CPY 10 y
+DIV x y $0
+SUB $0 x $1
+CPY $1 z
+CPY 1 a
+CPY 0 b
+AND a b $0
+CPY $0 c
+##################################

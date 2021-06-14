@@ -1,0 +1,19 @@
+##################################
+Assemply:
+
+PROC main
+CPY 10 x
+JZ  Label0
+EQ x 10 $0
+CPY $0 b
+JMP LabelCondEnd0
+Label0:
+JZ $0 Label1
+EQ x 5 $0
+CPY $0 b
+JMP LabelCondEnd0
+Label1:
+CPY x b
+LabelCondEnd0:
+LabelCondEnd1:
+##################################
